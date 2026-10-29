@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+.organizador_log.json
+*_limpio.csv
+.DS_Store
+Proyecto *.md
