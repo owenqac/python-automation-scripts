@@ -26,6 +26,18 @@ python3 02-limpiador-csv/limpiador_csv.py ventas.csv
 python3 02-limpiador-csv/limpiador_csv.py ventas.csv --simular
 ```
 
+### 3. Escáner de red local
+Detecta los equipos de tu red y sus puertos abiertos, con lectura de banners y salida JSON.
+Solo para redes propias o con permiso.
+
+```bash
+python3 03-escaner-red/escaner_red.py --autorizado
+python3 03-escaner-red/escaner_red.py --autorizado --puertos 1-1024 --banners
+```
+
+Características: TCP connect multihilo, detección automática de tu red, rangos de puertos,
+banners de servicio, exportación JSON y flag `--autorizado` obligatorio.
+
 ## Requisitos
 
 - Python 3.9+
